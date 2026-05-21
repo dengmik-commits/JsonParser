@@ -1,0 +1,72 @@
+{
+    "project": "JSON解析器",
+    "version": "1.0.0",
+    "author": {
+        "name": "dengmik",
+        "email": "dengmik@example.com",
+        "github": "https://github.com/dengmik-commits"
+    },
+    "features": [
+        "语法高亮",
+        "括号匹配",
+        "错误定位",
+        "代码折叠",
+        "搜索",
+        "格式化",
+        "压缩",
+        "深色主题"
+    ],
+    "dependencies": {
+        "qt": {
+            "version": "6.5.3",
+            "modules": ["Widgets"]
+        },
+        "nlohmann_json": {
+            "version": "3.11.3",
+            "url": "https://github.com/nlohmann/json"
+        }
+    },
+    "shortcuts": {
+        "open": "Ctrl+O",
+        "save": "Ctrl+S",
+        "saveAs": "Ctrl+Shift+S",
+        "format": "Ctrl+Shift+F",
+        "compact": "Ctrl+Shift+C",
+        "search": "Ctrl+F",
+        "expandAll": "Ctrl+E",
+        "collapseAll": "Ctrl+W",
+        "copyAll": "Ctrl+Shift+A",
+        "paste": "Ctrl+V"
+    },
+    "stats": {
+        "objects": 4,
+        "arrays": 3,
+        "keys": 15,
+        "maxDepth": 3
+    },
+    "nested": {
+        "level1": {
+            "level2": {
+                "level3": {
+                    "value": "深度嵌套测试",
+                    "items": [1, 2, 3, 4, 5]
+                }
+            }
+        }
+    },
+    "unicode_test": "中文 🎉 emoji",
+    "null_value": null,
+    "boolean_values": {
+        "enabled": true,
+        "disabled": false
+    },
+    "number_types": {
+        "integer": 42,
+        "negative": -7,
+        "float": 3.14,
+        "large": 999999999
+    },
+    "escaped_string": "包含\"引号\"和\\反斜杠\\的字符串",
+    "empty_array": [],
+    "empty_object": {}
+}
