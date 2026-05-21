@@ -1,0 +1,6 @@
+build/
+build3/
+dist/
+build_output.txt
+build.ps1
+app.ico
